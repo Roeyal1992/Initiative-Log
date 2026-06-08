@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Preview: Initiative Log widget",
+      "detail": "Serves an approximate HTML preview of the widget on http://localhost:8008 (rebuilds on reload).",
+      "type": "shell",
+      "command": "npm run preview",
+      "options": {
+        "env": {
+          "PATH": "${env:LOCALAPPDATA}\\node-portable\\node-v24.16.0-win-x64;${env:PATH}"
+        }
+      },
+      "isBackground": true,
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": []
+    }
+  ]
+}

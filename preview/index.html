@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Initiative Log — Preview</title>
+    <style>
+      :root { color-scheme: light; }
+      body {
+        margin: 0;
+        background: #EEF0F3;
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Hebrew', sans-serif;
+        color: #1F2430;
+        overflow-x: hidden;
+      }
+      #bar {
+        font-size: 12px;
+        color: #6B7280;
+        padding: 8px 16px;
+        background: #FCF6E5;
+        border-bottom: 1px solid #EADFB8;
+      }
+      #wrap { display: flex; justify-content: center; padding: 12px; box-sizing: border-box; width: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="bar">
+      Approximate preview (flexbox ≈ AutoLayout). Fully interactive — lock / language / expand / lens all work.
+      Figma is the source of truth for pixel/layout-quirk fidelity. Reload to reset to seed data.
+    </div>
+    <div id="wrap"><div id="root"></div></div>
+    <script src="./dist/preview.js"></script>
+  </body>
+</html>
